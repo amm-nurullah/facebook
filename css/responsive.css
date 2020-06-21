@@ -1,0 +1,21 @@
+@media screen and (max-width: 986px) {
+	.logo_ara{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.login_area{
+		float: none;
+		width: 405px;
+		margin: 15px auto;
+	}
+	.login_area form{
+		float: none;
+	}
+
+
+
+
+
+
+}

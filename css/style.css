@@ -1,0 +1,258 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*==================header start======================*/
+header{
+	background: #3B5998;
+	padding: 8px 0;
+
+}
+header::after{
+	content:'';
+	clear: both;
+	display: block;
+}
+.container{
+	width: 65%;
+	margin: 0 auto;
+}
+.logo_area{
+	width: 30%;
+	float: left;
+}
+.logo_area img{
+	width: 160px;
+	margin-top: 20px;
+
+}
+.login_area{
+	width: 70%;
+	float: left;
+	color: white;
+
+}
+
+.login_area form{
+	float: right;
+}
+.login_area label, .login_area input{
+	display: block;
+}
+.login_area label{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.login_area .email, .login_area .password, .login_area .login {
+	float: left;
+	margin-right: 15px;
+}
+.login_area .login{
+	margin-right: 0;
+}
+.login_area input[ type="text"],.login_area input[ type="password"] {
+	border: 1px solid #000;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 2px 5px;
+
+}
+.login_area .password a{
+	font-size: 12px;
+	color: #83B4D8;
+	text-decoration: none;
+}
+.login_area .password a:hover{
+	text-decoration: underline;
+}
+.login_area input[type="submit"] {
+	font-weight: 400;
+	color: #fff;
+	background-color: #4267b2;
+    border:1px solid #29487d;
+   	padding: 3px 8px;
+   	margin-top: 23px;
+
+}
+/*==================header end======================*/
+/*==================Sign up start======================*/
+
+.signup_area{
+	background: linear-gradient(white, #D3D8E8);
+	padding: 20px 0;
+}
+
+.signup_area::after{
+	content: '';
+	clear: both; 
+	display:block;
+
+}
+.left_aside{
+	width: 55%;
+	float: left;
+}
+.left_aside p{
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.left_aside img{
+	width: 100%;
+
+}
+.right_aside{
+	width: 45%;
+	float: left;
+}
+
+.right_aside h2{
+    font-size: 36px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.right_aside h4{
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.right_aside input[type="text"], .right_aside input[type="text"]{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+} 
+.name{
+	overflow: hidden;
+
+}
+.first_name{
+	width: 48%;
+	float: left;
+
+
+}
+.surname{
+	width: 48%;
+	float: right;
+	
+}
+.date_gender h3{
+	color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+	margin-bottom: 5px;	
+}
+
+.text_box p{
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+
+}
+.text_box p a{
+	text-decoration: none;
+	color: #385898;
+    cursor: pointer;
+}
+.text_box p a:hover{
+	text-decoration: underline;
+}
+.btn input{
+    padding: 10px 50px;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.business{
+	color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 11px;
+    padding: 15px 0;
+    display: inline-block;
+}
+.business a{
+	text-decoration: none;
+	color: #385898;
+    cursor: pointer;
+}
+.business a:hover{
+	text-decoration: underline;
+}
+
+/*==================Sign up end======================*/
+
+.footer_area{
+	padding: 30px 0;
+}
+.footer_area ul{
+	margin: 0;
+	padding: 0;
+}
+.footer_area ul li{
+	display: inline;
+	margin-right: 10px;
+}
+
+.footer_area ul li a{
+	font-size: 13px;
+	color: #385898;
+	text-decoration: none;
+}
+.footer_area ul li.active a{
+	color: #737373;
+}
+
+.footer_area .top ul li{
+	margin-right: 8px;
+}
+.footer_area .top ul li:last-child a{
+	border: 1px solid #999;
+	padding: 0 6px;
+}
+.footer_area hr{
+	border: 0;
+	border-bottom: 1px solid #d4d4d4;
+}
+.footer_area .meedle ul li{
+	margin-right: 12px;
+}
+.footer_area .top ul li:last-child, .footer_area .meedle ul li:last-child {
+	margin-right: 0;
+} 
+.bottom{
+	margin-top: 20px;
+}
+.bottom span{
+	font-size: 13px;
+	color: #737373;
+}
+
